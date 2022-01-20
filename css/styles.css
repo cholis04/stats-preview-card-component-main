@@ -28,7 +28,6 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  /* font-family: 'Lexend Deca', sans-serif; */
   background-color: hsl(233, 47%, 7%);
 }
 
@@ -55,6 +54,7 @@ body {
   background-color: var(--card-background);
 }
 .container main > div.preview-card > .card-thumbnail {
+  margin: 0 auto;
   width: 100%;
   display: block;
   background-color: var(--accent);
@@ -68,5 +68,45 @@ body {
   filter: opacity(75%);
 }
 .container main > div.preview-card > .card-body {
-  border: 2px solid yellow;
+  margin: auto;
+  padding: 20px 32px;
+  text-align: center;
+}
+.container main > div.preview-card > .card-body > h1 {
+  margin: 20px auto;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--text-heading);
+}
+.container main > div.preview-card > .card-body > h1 > span {
+  color: var(--accent);
+}
+.container main > div.preview-card > .card-body > p {
+  color: var(--text-color);
+  line-height: 170%;
+  font-size: 15px;
+  font-weight: 400;
+}
+.container main > div.preview-card > .card-body > .stats-box {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 200px;
+}
+
+.container main > div.preview-card > .card-body > .stats-box > .info-item > h2 {
+  color: var(--text-heading);
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+.container main > div.preview-card > .card-body > .stats-box > .info-item > p {
+  color: var(--text-transparent);
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1.2px;
+  font-weight: 400;
+  font-family: 'Lexend Deca', sans-serif;
 }
