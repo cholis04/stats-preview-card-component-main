@@ -32,9 +32,7 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+i am happy to know the html tag which can be used to display the image according to the screen resolution. and this reduces writes in media queries on css. Here's the code :
 
 ```html
 <picture class="card-thumbnail">
@@ -50,7 +48,7 @@ To see how you can add code snippets, see below:
 </picture>
 ```
 
-To see how you can add code snippets, see below:
+I tried the css flex wrap property, this makes me only write media queries on the parent element instead of having to write the Order property on each child element to swap element order. Here's the code:
 
 ```css
 .preview-card {
@@ -65,7 +63,7 @@ To see how you can add code snippets, see below:
 }
 ```
 
-To see how you can add code snippets, see below:
+I want to try to create an overlay without adding elements in the html. by adding a background color to the parent element, then mix-blend-mode on the img element inside. And reduce the opacity to make it look the same as the design. I think it works pretty well. what do you think? . Here's the code:
 
 ```css
 .card-thumbnail {
